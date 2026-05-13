@@ -104,6 +104,13 @@
       "description": "Log debug output to the developer console. May slow down the editor.",
       "type": "boolean",
       "default": false
+    },
+    "editorScrollPosition": {
+      "order": 10,
+      "title": "Editor Scroll Position",
+      "description": "Scroll zone as % of viewport height. Single value e.g. `0` is strict mode (always scroll cursor to that position). Two values e.g. `0-50` define a lazy zone (scroll only when cursor exits the zone). 0 = top margin, 100 = bottom margin.",
+      "type": "string",
+      "default": "0-50"
     }
   }
 }
